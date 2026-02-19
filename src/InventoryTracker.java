@@ -12,5 +12,8 @@ public class InventoryTracker {
     public void displayInfo() {
         System.out.println("InventoryTracker running...");
     }
+    public int checkStockLevel(String productName) {
+        return 1000; // dummy value
+    }
 }
 
