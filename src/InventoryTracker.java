@@ -15,5 +15,11 @@ public class InventoryTracker {
     public int checkStockLevel(String productName) {
         return 1000; // dummy value
     }
+     public String alertLowStock(String productName, int stockLevel) {
+        if (stockLevel < 10) {
+            return "ALERT: Low stock for " + productName;
+        }
+        return "Stock is sufficient for " + productName;
+    }
 }
 
